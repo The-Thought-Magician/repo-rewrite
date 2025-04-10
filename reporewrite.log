@@ -1,0 +1,84 @@
+2025-04-10 02:44:51,461 - RepoRewrite - INFO - Resources cleaned up successfully
+2025-04-10 04:48:06,134 - RepoRewrite - INFO - Cloning repository from git@github.com:The-Thought-Magician/TEST.git to /tmp/tmpd3hx6f79
+2025-04-10 04:48:09,911 - RepoRewrite - INFO - Repository cloned successfully
+2025-04-10 04:48:10,015 - RepoRewrite - INFO - Repository information fetched successfully
+2025-04-10 04:48:10,015 - RepoRewrite - INFO - Backend controller initialized with repository at /tmp/tmpd3hx6f79
+2025-04-10 04:48:10,016 - RepoRewrite - INFO - Updated 0 files in the repository
+2025-04-10 04:48:10,021 - RepoRewrite - ERROR - Failed to clean sensitive data: Cmd('git') failed due to: exit code(1)
+  cmdline: git commit -m Clean sensitive data
+  stdout: 'On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean'
+2025-04-10 04:57:56,770 - RepoRewrite - INFO - Removed temporary directory: /tmp/tmpd3hx6f79
+2025-04-10 04:57:56,770 - RepoRewrite - INFO - Resources cleaned up successfully
+2025-04-10 05:09:53,428 - RepoRewrite - INFO - Cloning repository from https://github.com/The-Thought-Magician/TEST.git to /tmp/tmpvcj43my1
+2025-04-10 05:09:54,579 - RepoRewrite - INFO - Repository cloned successfully
+2025-04-10 05:09:54,686 - RepoRewrite - INFO - Repository information fetched successfully
+2025-04-10 05:09:54,687 - RepoRewrite - INFO - Backend controller initialized with repository at /tmp/tmpvcj43my1
+2025-04-10 05:09:54,688 - RepoRewrite - INFO - Updated 0 files in the repository
+2025-04-10 05:09:54,688 - RepoRewrite - INFO - No files needed sensitive data cleaning
+2025-04-10 05:09:54,688 - RepoRewrite - INFO - Sensitive data cleaning process completed successfully
+2025-04-10 05:09:55,111 - RepoRewrite - ERROR - Failed to create repository: Bad credentials
+2025-04-10 05:09:55,111 - RepoRewrite - ERROR - Failed to create remote repository: Failed to create repository: Bad credentials
+2025-04-10 05:09:55,111 - RepoRewrite - ERROR - Failed to setup remote and push: Failed to create repository: Bad credentials
+2025-04-10 05:10:05,220 - RepoRewrite - INFO - Cloning repository from https://github.com/The-Thought-Magician/TEST.git to /tmp/tmpm2bno28i
+2025-04-10 05:10:06,443 - RepoRewrite - INFO - Repository cloned successfully
+2025-04-10 05:10:06,547 - RepoRewrite - INFO - Repository information fetched successfully
+2025-04-10 05:10:06,548 - RepoRewrite - INFO - Backend controller initialized with repository at /tmp/tmpm2bno28i
+2025-04-10 05:10:06,549 - RepoRewrite - INFO - Updated 0 files in the repository
+2025-04-10 05:10:06,549 - RepoRewrite - INFO - No files needed sensitive data cleaning
+2025-04-10 05:10:06,549 - RepoRewrite - INFO - Sensitive data cleaning process completed successfully
+2025-04-10 05:10:07,655 - RepoRewrite - INFO - Created new repository: git@github.com:The-Thought-Magician/meow123.git
+2025-04-10 05:10:07,656 - RepoRewrite - WARNING - Remote origin already exists
+2025-04-10 05:10:07,659 - RepoRewrite - INFO - Updated URL for remote origin to git@github.com:The-Thought-Magician/meow123.git
+2025-04-10 05:10:07,659 - RepoRewrite - INFO - Remote origin configured with URL git@github.com:The-Thought-Magician/meow123.git
+2025-04-10 05:10:09,867 - RepoRewrite - ERROR - Failed to push changes: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain --force -- origin main:main
+  stderr: 'fatal: Could not read from remote repository.'
+2025-04-10 05:10:09,867 - RepoRewrite - ERROR - Failed to setup remote and push: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --porcelain --force -- origin main:main
+  stderr: 'fatal: Could not read from remote repository.'
+2025-04-10 05:10:33,732 - RepoRewrite - INFO - Cloning repository from https://github.com/The-Thought-Magician/TEST.git to /tmp/tmpqseeheee
+2025-04-10 05:10:35,095 - RepoRewrite - INFO - Repository cloned successfully
+2025-04-10 05:10:35,198 - RepoRewrite - INFO - Repository information fetched successfully
+2025-04-10 05:10:35,199 - RepoRewrite - INFO - Backend controller initialized with repository at /tmp/tmpqseeheee
+2025-04-10 05:10:35,200 - RepoRewrite - INFO - Updated 0 files in the repository
+2025-04-10 05:10:35,200 - RepoRewrite - INFO - No files needed sensitive data cleaning
+2025-04-10 05:10:35,200 - RepoRewrite - INFO - Sensitive data cleaning process completed successfully
+2025-04-10 05:10:35,655 - RepoRewrite - ERROR - Failed to create repository: Repository creation failed.
+2025-04-10 05:10:35,655 - RepoRewrite - ERROR - Failed to create remote repository: Failed to create repository: Repository creation failed.
+2025-04-10 05:10:35,655 - RepoRewrite - ERROR - Failed to setup remote and push: Failed to create repository: Repository creation failed.
+2025-04-10 18:00:58,962 - RepoRewrite - INFO - File watcher started for /home/chiranjeetmishra/Desktop/Personal/reporewrite
+2025-04-10 18:03:17,475 - RepoRewrite - INFO - Cloning repository from https://github.com/The-Thought-Magician/TEST.git to /tmp/tmpky0p3477
+2025-04-10 18:03:19,431 - RepoRewrite - INFO - Repository cloned successfully
+2025-04-10 18:03:19,531 - RepoRewrite - INFO - Repository information fetched successfully
+2025-04-10 18:03:19,531 - RepoRewrite - INFO - Backend controller initialized with repository at /tmp/tmpky0p3477
+2025-04-10 18:03:19,533 - RepoRewrite - INFO - Updated 0 files in the repository
+2025-04-10 18:03:19,533 - RepoRewrite - INFO - No files needed sensitive data cleaning
+2025-04-10 18:03:19,533 - RepoRewrite - INFO - Sensitive data cleaning process completed successfully
+2025-04-10 18:03:20,783 - RepoRewrite - INFO - Created new repository: https://github.com/The-Thought-Magician/carlos.git
+2025-04-10 18:03:20,785 - RepoRewrite - WARNING - Remote origin already exists
+2025-04-10 18:03:20,788 - RepoRewrite - INFO - Updated URL for remote origin to https://github.com/The-Thought-Magician/carlos.git
+2025-04-10 18:03:20,788 - RepoRewrite - INFO - Remote origin configured with URL https://github.com/The-Thought-Magician/carlos.git
+2025-04-10 18:03:23,483 - RepoRewrite - INFO - Successfully pushed changes to origin/main
+2025-04-10 18:03:23,483 - RepoRewrite - INFO - Repository changes pushed successfully
+2025-04-10 18:03:23,485 - RepoRewrite - INFO - Removed temporary directory: /tmp/tmpky0p3477
+2025-04-10 18:03:23,485 - RepoRewrite - INFO - Resources cleaned up successfully
+2025-04-10 18:11:12,917 - RepoRewrite - INFO - Cloning repository from https://github.com/The-Thought-Magician/TEST.git to /tmp/tmp44pzwwcg
+2025-04-10 18:11:14,185 - RepoRewrite - INFO - Repository cloned successfully
+2025-04-10 18:11:14,294 - RepoRewrite - INFO - Repository information fetched successfully
+2025-04-10 18:11:14,295 - RepoRewrite - INFO - Backend controller initialized with repository at /tmp/tmp44pzwwcg
+2025-04-10 18:11:14,295 - RepoRewrite - INFO - Updated 0 files in the repository
+2025-04-10 18:11:14,295 - RepoRewrite - INFO - No files needed sensitive data cleaning
+2025-04-10 18:11:14,296 - RepoRewrite - INFO - Sensitive data cleaning process completed successfully
+2025-04-10 18:11:15,511 - RepoRewrite - INFO - Created new repository: https://github.com/The-Thought-Magician/carlos1.git
+2025-04-10 18:11:15,512 - RepoRewrite - WARNING - Remote origin already exists
+2025-04-10 18:11:15,515 - RepoRewrite - INFO - Updated URL for remote origin to https://github.com/The-Thought-Magician/carlos1.git
+2025-04-10 18:11:15,515 - RepoRewrite - INFO - Remote origin configured with URL https://github.com/The-Thought-Magician/carlos1.git
+2025-04-10 18:11:17,958 - RepoRewrite - INFO - Successfully pushed changes to origin/main
+2025-04-10 18:11:17,959 - RepoRewrite - INFO - Repository changes pushed successfully
+2025-04-10 18:11:17,961 - RepoRewrite - INFO - Removed temporary directory: /tmp/tmp44pzwwcg
+2025-04-10 18:11:17,961 - RepoRewrite - INFO - Resources cleaned up successfully
+2025-04-10 18:14:06,752 - RepoRewrite - INFO - Resources cleaned up successfully
+2025-04-10 18:14:06,767 - RepoRewrite - INFO - File watcher stopped
